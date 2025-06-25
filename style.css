@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 243, 243);
+}
+
+.hr-carrossel{
+    margin: 10px;
+}
+
+header{
+
+}
+
+.header-div-esquerda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 885px;
+}
+
+.header-div-esquerda img{
+    width: 120px;
+}
+
+.header-navegacao button{
+    width: 100px;
+    height: 40px;
+}
+
+.header-navegacao button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main{
+
+}
+
+
+
+footer{
+
+}
