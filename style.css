@@ -1,59 +1,20 @@
-@keyframes animarLinha {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+body{
+  margin: 0;
 }
 
-body{
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0.815);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    /* background-color: rgb(255, 243, 243); */
+header{
+  display: flex;
+  justify-content: center;
 }
 
 .cabecalho{
-    display: flex;
-    justify-content: space-between;
-    width: 1150px;
-    align-items: flex-end;
-    color: white;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1100px;
+  padding: 10px;  
 }
 
 #cabecalho-logo{
-    width: 120px;
-}
-
-#cabecalho-loguinho{
-    width: 70px;
-}
-
-.hr-carrossel{
-  margin: 0;
-  border: none;
-  height: 12px;
-  background: linear-gradient(270deg, rgb(255, 238, 0), black, white, red);
-  /* background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15); */
-  background-size: 800% 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  border-radius: 2px;
-  animation: animarLinha 20s ease infinite;
-  width: 100%;
-}
-
-.img-main{
-    margin-top: 50px;
-}
-
-.img-main img{
-    width: 900px;
+  width: 110px;
 }
