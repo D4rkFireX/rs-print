@@ -41,9 +41,10 @@ body{
   margin: 0;
   border: none;
   height: 12px;
-  background: linear-gradient(270deg, rgb(255, 238, 0), black, white);
+  background: linear-gradient(270deg, rgb(255, 238, 0), black, white, red);
   /* background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15); */
   background-size: 800% 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border-radius: 2px;
   animation: animarLinha 20s ease infinite;
   width: 100%;
