@@ -1,45 +1,58 @@
+@keyframes animarLinha {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 body{
     margin: 0;
-    background-color: rgb(255, 243, 243);
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(255, 243, 243); */
 }
 
-.hr-carrossel{
-    margin: 10px;
-}
-
-header{
-
-}
-
-.header-div-esquerda{
+.cabecalho{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 885px;
+    width: 1150px;
+    align-items: flex-end;
+    color: white;
+    padding: 10px;
 }
 
-.header-div-esquerda img{
+#cabecalho-logo{
     width: 120px;
 }
 
-.header-navegacao button{
-    width: 100px;
-    height: 40px;
+#cabecalho-loguinho{
+    width: 70px;
 }
 
-.header-navegacao button:hover{
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    transition: 1s;
+.hr-carrossel{
+  margin: 0;
+  border: none;
+  height: 12px;
+  background: linear-gradient(270deg, rgb(255, 238, 0), black, white);
+  /* background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15); */
+  background-size: 800% 100%;
+  border-radius: 2px;
+  animation: animarLinha 20s ease infinite;
+  width: 100%;
 }
 
-main{
-
+.img-main{
+    margin-top: 50px;
 }
 
-
-
-footer{
-
+.img-main img{
+    width: 900px;
 }
