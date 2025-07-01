@@ -43,7 +43,8 @@ header{
 .botoes{
   display: flex;
   margin: 0;
-  background-color: rgb(151, 206, 255);
+  box-shadow: 0 0 10px #888;
+  background-color: rgb(171, 216, 255);
   /* background-color: rgba(255, 255, 0, 0.899); */
   padding: 5px;
   gap: 5px;
@@ -67,4 +68,22 @@ header{
 #ricoh{
   width: 70px;
   border-radius: 5px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  background-color: #362e26;
+}
+
+.main-conteudo{
+  border: 1px solid white;
+}
+
+.conteudo-texto{
+  text-align: center;
+}
+
+#main-foto{
+  width: 1000px;
 }
