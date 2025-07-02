@@ -106,7 +106,7 @@ main {
   align-items: center;
   margin-top: 30px;
   margin-bottom: 60px;
-  height: 600px;
+  height: 570px;
 }
 
 .caixa-titulo {
@@ -162,8 +162,8 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1250px;
-  gap: 240px;
+  width: 1200px;
+  gap: 220px;
   margin-top: 30px;
 }
 
@@ -187,22 +187,30 @@ footer{
 }
 
 .localização{
-  width: 200px;
-  height: 110px;
+  width: 240px;
+  height: 150px;
   text-align: center;
 }
 
 .localização p{
-  text-align: center;
-  width: 200px;
+  text-align: left;
+  font-size: 20px;
+  width: 240px;
 }
 
 .localização button{
-  text-align: center;
   cursor: pointer;
   padding: 10px;
 }
 
+.localização button:hover{
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
 .rodape-texto{
+  margin-top: 100px;
+  font-weight: bold;
   height: 50px;
 }
