@@ -137,7 +137,7 @@ main {
   background-color: white;
 }
 
-.caixa-texto h2{
+.caixa-texto h2 {
   margin: 0;
   padding-top: 15px;
   background-color: black;
@@ -150,7 +150,7 @@ main {
   border-radius: 10px;
 }
 
-footer{
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,58 +158,30 @@ footer{
   color: white;
 }
 
-.mural-rodape{
+.mural-rodape {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1200px;
-  gap: 220px;
-  margin-top: 30px;
+  gap: 260px;
+  margin-top: 50px;
 }
 
-.rodape-logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 30px;
-  background-color: rgb(255, 255, 37);
-  width: 230px;
-  height: 220px;
-}
-
-.rodape-logo img{
+.mural-rodape img {
   width: 180px;
 }
 
-.rodade-paginas{
+.rodade-paginas {
   display: flex;
   gap: 60px;
 }
 
-.localização{
-  width: 240px;
-  height: 150px;
-  text-align: center;
+#mapa {
+  width: 500px;
+  height: 250px;
 }
 
-.localização p{
-  text-align: left;
-  font-size: 20px;
-  width: 240px;
-}
-
-.localização button{
-  cursor: pointer;
-  padding: 10px;
-}
-
-.localização button:hover{
-  background-color: black;
-  color: white;
-  transition: 1s;
-}
-
-.rodape-texto{
+.rodape-texto {
   margin-top: 100px;
   font-weight: bold;
   height: 50px;
